@@ -1,6 +1,6 @@
-# Strom Spot-Marktpreis in Home Assistant (aWATTar)
+# Strom Spot-Marktpreis in Home Assistant (EPEX Spot / aWATTar API)
 
-Zeigt den aktuellen EPEX Spot-Preis für Strom in ct/kWh an, inkl. Prognose für die nächsten Stunden.
+Zeigt den aktuellen EPEX Spot-Preis für Strom in ct/kWh an, inkl. Prognose für die nächsten Stunden. Nutzt die aWATTar API als Datenquelle.
 
 ## 1. HACS installieren
 
@@ -31,13 +31,13 @@ wget -O - https://get.hacs.xyz | bash -
 - Code auf **github.com/login/device** eingeben und mit GitHub Account autorisieren
 - HACS erscheint in der Seitenleiste
 
-## 2. aWATTar installieren
+## 2. EPEX Spot installieren
 
 - **HACS → Integrations → Explore & Download Repositories**
-- Nach "aWATTar" suchen → Download
+- Nach "EPEX Spot" suchen → Download (nutzt die aWATTar API)
 - **Home Assistant neustarten** (Settings → System → Restart)
 - **Settings → Devices & Services → Add Integration**
-- Nach "aWATTar" suchen → **Germany** auswählen
+- Nach "EPEX Spot" suchen → **Germany** auswählen
 - Fertig
 
 ## Ergebnis
